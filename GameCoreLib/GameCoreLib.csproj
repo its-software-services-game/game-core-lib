@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageId>GameCoreLib</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Seubpong Monsar</Authors>
+    <Company>ITS</Company>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <LangVersion>3.1</LangVersion>
   </PropertyGroup>
 
 </Project>
