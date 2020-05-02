@@ -12,6 +12,17 @@ namespace Its.Games.BoardGame2D.Core.BoardGame2D
         protected abstract int GetMaxRow();
         protected abstract int GetMaxCol();
 
+        protected void Put(int x, int y, IMarker mark)
+        {
+            board[x, y] = mark;
+        }
+
+        protected IMarker Get(int x, int y)
+        {
+            IMarker mark = board[x, y];
+            return mark;
+        }
+
         public void Init()
         {
             maxRow = GetMaxRow();

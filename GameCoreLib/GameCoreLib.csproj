@@ -3,7 +3,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <PackageId>GameCoreLib</PackageId>
-    <Version>1.0.5</Version>
+    <Version>1.0.13</Version>
     <Authors>Seubpong Monsar</Authors>
     <Company>ITS</Company>
     <TargetFramework>netcoreapp3.1</TargetFramework>
